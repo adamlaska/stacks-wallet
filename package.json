@@ -217,7 +217,7 @@
     "@stacks/ui-theme": "7.5.0",
     "@stacks/ui-utils": "7.5.0",
     "@styled-system/theme-get": "5.1.2",
-    "@tabler/icons": "1.40.2",
+    "@tabler/icons": "1.48.0",
     "@tippyjs/react": "4.2.5",
     "@zondax/ledger-blockstack": "0.2.0",
     "argon2-browser": "1.15.3",
