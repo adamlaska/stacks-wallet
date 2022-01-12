@@ -229,7 +229,7 @@
     "buffer": "6.0.3",
     "c32check": "1.1.2",
     "connected-react-router": "6.9.1",
-    "core-js": "3.9.1",
+    "core-js": "3.20.0",
     "dayjs": "1.10.4",
     "deepmerge": "4.2.2",
     "devtron": "1.4.0",
