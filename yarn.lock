@@ -2735,10 +2735,10 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@tabler/icons@1.40.2":
-  version "1.40.2"
-  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-1.40.2.tgz#92bb287b8d09cf4e10012dbec320dc944c5d3375"
-  integrity sha512-JPMg7NpdJ45DdSTn1SPP43KSjXrtGqw62M7o+iY1uWZJrXK2hm2tv6fuVLlDeRqLAnwBcDROKvwpIpteJT9j+Q==
+"@tabler/icons@1.48.0":
+  version "1.48.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-1.48.0.tgz#e33651b5e21f1145e6cff2241ed96484f1ecac6e"
+  integrity sha512-OUaFbmuofk1xmLRVeaS7TOqA1aL0DXzdkNImy5YFljCvbr7eQC/SJuH2CuDVqGjmSG5XtO2khSOOT5roJt7uew==
 
 "@tippyjs/react@4.2.5", "@tippyjs/react@^4.2.4":
   version "4.2.5"
