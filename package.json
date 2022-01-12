@@ -210,7 +210,7 @@
     "@emotion/styled": "11.3.0",
     "@hot-loader/react-dom": "17.0.1",
     "@popperjs/core": "2.9.1",
-    "@reduxjs/toolkit": "1.5.1",
+    "@reduxjs/toolkit": "1.7.1",
     "@stacks/blockchain-api-client": "0.55.2",
     "@stacks/ui": "7.8.0",
     "@stacks/ui-core": "7.3.0",
