@@ -6027,10 +6027,10 @@ electron@*:
     "@types/node" "^14.6.2"
     extract-zip "^1.0.3"
 
-electron@12.0.2:
-  version "12.0.2"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-12.0.2.tgz#d92be205f1937627bd6718aad44ac161382b4c2d"
-  integrity sha512-14luh9mGzfL4e0sncyy0+kW37IU7Y0Y1tvI97FDRSW0ZBQxi5cmAwSs5dmPmNBFBIGtzkaGaEB01j9RjZuCmow==
+electron@12.0.13:
+  version "12.0.13"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-12.0.13.tgz#f1c7f3d8b25078d7622ed900cc8f2aa4731a5e0a"
+  integrity sha512-2yx102mhqgyaTVH+GCet4hURKOIuI27DcVdlval5T3eOEZMOHNrCbi8/8PZ7MqMfB5PIxJ+grS5S00/n5Zcu2Q==
   dependencies:
     "@electron/get" "^1.0.1"
     "@types/node" "^14.6.2"
