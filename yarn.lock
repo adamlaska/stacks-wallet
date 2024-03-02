@@ -2843,12 +2843,12 @@
   resolved "https://registry.yarnpkg.com/@types/electron-devtools-installer/-/electron-devtools-installer-2.2.0.tgz#32ee4ebbe99b3daf9847a6d2097dc00b5de94f10"
   integrity sha512-HJNxpaOXuykCK4rQ6FOMxAA0NLFYsf7FiPFGmab0iQmtVBHSAfxzy3MRFpLTTDDWbV0yD2YsHOQvdu8yCqtCfw==
 
-"@types/electron-window-state@2.0.34":
-  version "2.0.34"
-  resolved "https://registry.yarnpkg.com/@types/electron-window-state/-/electron-window-state-2.0.34.tgz#794b9bc62eb4485837947c543c9d2757ee4c74c0"
-  integrity sha512-pOJfzi9uoBF9kJa47EXQCizR8g/7gnKs9jLJMMHAWv+oVYVM6Nmgt8/I85z+cdahc9Nn4/f+mHZ7m0sWg0Prbw==
+"@types/electron-window-state@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@types/electron-window-state/-/electron-window-state-5.0.0.tgz#caf38c09d26294d3bed74985be0f666bb6451b0e"
+  integrity sha512-bT4efa3CIsyvI7gTNM/EtIp3AcFqw0sdnf/eYquxVOIANVgL+5NibU3BEibVsf+ow2qo4pRqgtkoJxAUBSlf9A==
   dependencies:
-    electron "*"
+    electron-window-state "*"
 
 "@types/elliptic@^6.4.12":
   version "6.4.13"
@@ -6010,22 +6010,13 @@ electron-to-chromium@^1.3.719:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.720.tgz#f5d66df8754d993006b7b2ded15ff7738c58bd94"
   integrity sha512-B6zLTxxaOFP4WZm6DrvgRk8kLFYWNhQ5TrHMC0l5WtkMXhU5UbnvWoTfeEwqOruUSlNMhVLfYak7REX6oC5Yfw==
 
-electron-window-state@5.0.3:
+electron-window-state@*, electron-window-state@5.0.3:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/electron-window-state/-/electron-window-state-5.0.3.tgz#4f36d09e3f953d87aff103bf010f460056050aa8"
   integrity sha512-1mNTwCfkolXl3kMf50yW3vE2lZj0y92P/HYWFBrb+v2S/pCka5mdwN3cagKm458A7NjndSwijynXgcLWRodsVg==
   dependencies:
     jsonfile "^4.0.0"
     mkdirp "^0.5.1"
-
-electron@*:
-  version "12.0.5"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-12.0.5.tgz#005cf4375d2ee4563f5e75dc4da4ef871846a8be"
-  integrity sha512-z0xYB3sPr0qZcDrHUUWqooPKe3yUzBDxQcgQe3f2TLstA84JIFXBoaIJCPh/fJW0+JdF/ZFVeK2SNgLhYtRV+Q==
-  dependencies:
-    "@electron/get" "^1.0.1"
-    "@types/node" "^14.6.2"
-    extract-zip "^1.0.3"
 
 electron@12.0.2:
   version "12.0.2"
