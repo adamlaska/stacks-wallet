@@ -113,7 +113,7 @@
     "@commitlint/config-conventional": "12.0.1",
     "@octokit/types": "6.13.0",
     "@pmmmwh/react-refresh-webpack-plugin": "0.4.3",
-    "@stacks/eslint-config": "1.0.9",
+    "@stacks/eslint-config": "2.0.0",
     "@stacks/prettier-config": "0.0.8",
     "@stacks/stacks-blockchain-api-types": "0.61.0",
     "@types/argon2-browser": "1.12.0",
