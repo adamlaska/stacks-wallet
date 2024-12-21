@@ -2843,12 +2843,12 @@
   resolved "https://registry.yarnpkg.com/@types/electron-devtools-installer/-/electron-devtools-installer-2.2.0.tgz#32ee4ebbe99b3daf9847a6d2097dc00b5de94f10"
   integrity sha512-HJNxpaOXuykCK4rQ6FOMxAA0NLFYsf7FiPFGmab0iQmtVBHSAfxzy3MRFpLTTDDWbV0yD2YsHOQvdu8yCqtCfw==
 
-"@types/electron-window-state@2.0.34":
-  version "2.0.34"
-  resolved "https://registry.yarnpkg.com/@types/electron-window-state/-/electron-window-state-2.0.34.tgz#794b9bc62eb4485837947c543c9d2757ee4c74c0"
-  integrity sha512-pOJfzi9uoBF9kJa47EXQCizR8g/7gnKs9jLJMMHAWv+oVYVM6Nmgt8/I85z+cdahc9Nn4/f+mHZ7m0sWg0Prbw==
+"@types/electron-window-state@5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@types/electron-window-state/-/electron-window-state-5.0.2.tgz#b3aae242233a652606bc7ff8e77ca0f1ba0a489e"
+  integrity sha512-7+aVlr272+whGu3vYMo0tt0HGYRS2GfLs+0dl6zTurot0wh3fb58BUc4p4ezoNiQbS+dDmDndCle8HKePfgW+g==
   dependencies:
-    electron "*"
+    electron-window-state "*"
 
 "@types/elliptic@^6.4.12":
   version "6.4.13"
@@ -5921,14 +5921,11 @@ electron-debug@3.2.0:
     electron-is-dev "^1.1.0"
     electron-localshortcut "^3.1.0"
 
-electron-devtools-installer@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/electron-devtools-installer/-/electron-devtools-installer-3.2.0.tgz#acc48d24eb7033fe5af284a19667e73b78d406d0"
-  integrity sha512-t3UczsYugm4OAbqvdImMCImIMVdFzJAHgbwHpkl5jmfu1izVgUcP/mnrPqJIpEeCK1uZGpt+yHgWEN+9EwoYhQ==
+electron-devtools-installer@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/electron-devtools-installer/-/electron-devtools-installer-4.0.0.tgz#6556a6a326cddea18194cb6d97d85c8ae329dedf"
+  integrity sha512-9Tntu/jtfSn0n6N/ZI6IdvRqXpDyLQiDuuIbsBI+dL+1Ef7C8J2JwByw58P3TJiNeuqyV3ZkphpNWuZK5iSY2w==
   dependencies:
-    rimraf "^3.0.2"
-    semver "^7.2.1"
-    tslib "^2.1.0"
     unzip-crx-3 "^0.2.0"
 
 electron-dl@^3.1.0:
@@ -6010,22 +6007,13 @@ electron-to-chromium@^1.3.719:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.720.tgz#f5d66df8754d993006b7b2ded15ff7738c58bd94"
   integrity sha512-B6zLTxxaOFP4WZm6DrvgRk8kLFYWNhQ5TrHMC0l5WtkMXhU5UbnvWoTfeEwqOruUSlNMhVLfYak7REX6oC5Yfw==
 
-electron-window-state@5.0.3:
+electron-window-state@*, electron-window-state@5.0.3:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/electron-window-state/-/electron-window-state-5.0.3.tgz#4f36d09e3f953d87aff103bf010f460056050aa8"
   integrity sha512-1mNTwCfkolXl3kMf50yW3vE2lZj0y92P/HYWFBrb+v2S/pCka5mdwN3cagKm458A7NjndSwijynXgcLWRodsVg==
   dependencies:
     jsonfile "^4.0.0"
     mkdirp "^0.5.1"
-
-electron@*:
-  version "12.0.5"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-12.0.5.tgz#005cf4375d2ee4563f5e75dc4da4ef871846a8be"
-  integrity sha512-z0xYB3sPr0qZcDrHUUWqooPKe3yUzBDxQcgQe3f2TLstA84JIFXBoaIJCPh/fJW0+JdF/ZFVeK2SNgLhYtRV+Q==
-  dependencies:
-    "@electron/get" "^1.0.1"
-    "@types/node" "^14.6.2"
-    extract-zip "^1.0.3"
 
 electron@12.0.2:
   version "12.0.2"
