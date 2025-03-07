@@ -15,7 +15,7 @@
     "@ledgerhq/hw-transport-node-hid": "6.1.0",
     "@stacks/keychain": "1.4.1",
     "@stacks/network": "1.2.2",
-    "@stacks/stacking": "1.4.1",
+    "@stacks/stacking": "2.0.1",
     "@stacks/transactions": "1.4.1",
     "argon2-browser": "1.15.3",
     "bitcoinjs-lib": "5.2.0",
